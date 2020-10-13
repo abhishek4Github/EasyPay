@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="settings">
+
+    </item>
+
+    <item
+        android:id="@+id/idrefresh"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Refresh">
+
+    </item>
+
+    <item
+        android:id="@+id/idadditem"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="+Add">
+    </item>
+</menu>
